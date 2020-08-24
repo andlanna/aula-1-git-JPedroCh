@@ -1,0 +1,13 @@
+1) Definições:
+git-init: Cria um repositório Git ou reinicializa um já existente
+git-clone: Clona um reporsitório em um novo diretório
+git-branch: Lista, cria ou deleta branches
+git-checkout: Troca branches ou restaura aquivo da árvore de trabalho
+git-fetch: Baixa objetos e referências de outro repositório
+git-pull: Aplica o fetch integrado com outro repositório ou uma branch local
+git-add: Adiciona conteúdo de arquivos ao index
+git-commit: grava as mudanças no repositório
+git-push: Atualiza referências remotas junto com seus objetos associados
+
+2) A diferença entre o git-fetch e o git-pull:
+O “git fetch” atualiza o seu repositório local porém sem salvar as modificações. Já “git pull” é uma combinação do fetch porém integrando a atualização a outro repositório.
